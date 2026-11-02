@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -1567,17 +1567,18 @@ wheels = [
 
 [[package]]
 name = "langgraph-cli"
-version = "0.4.15"
+version = "0.4.32.dev0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "httpx" },
     { name = "langgraph-sdk" },
+    { name = "pathspec" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/16/0c/eecfcc44bd45860dda9cf879e459e8e61cfe48abdc066e9aaa14dcf734fc/langgraph_cli-0.4.15.tar.gz", hash = "sha256:4705f53d060e31b2fb8d70bb3663a14ff89e4cb14bf3a05222547a95356645d7", size = 866837, upload-time = "2026-03-10T01:16:12.852Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d4/d6/da5e0e22bda2991f644ccc4cce401583200455169460e0c88837f2968b09/langgraph_cli-0.4.32.dev0.tar.gz", hash = "sha256:829109b803b983ca7c69b68f371a46554654677192695881df9c965ba21f9ab0", size = 1087364, upload-time = "2026-09-23T23:26:39.113Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a7/ad/ba915c904b5fdbf5db9d9307c5658a01ba3fa808165961f783de1fd1007b/langgraph_cli-0.4.15-py3-none-any.whl", hash = "sha256:6525c67bdcf07d80bae2ae5d32e4db7842b8e5983988eaadd635107c181536ee", size = 49353, upload-time = "2026-03-10T01:16:11.978Z" },
+    { url = "https://files.pythonhosted.org/packages/b0/66/4cb004e1a3e7acd0e42f18e595e518bb60f5d492ad12bba2b6286bac3f25/langgraph_cli-0.4.32.dev0-py3-none-any.whl", hash = "sha256:30db90c8abab8428f9db7228f5b438f955d3ea04046049d01d5f86a8294ed1a9", size = 89546, upload-time = "2026-09-23T23:26:37.737Z" },
 ]
 
 [package.optional-dependencies]
@@ -2436,6 +2437,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/6d/02/c6e04b694ffd68568297abd03588b6d30295265176a5c01b7459d3bc35a3/pandas-3.0.1-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:15860b1fdb1973fffade772fdb931ccf9b2f400a3f5665aef94a00445d7d8dd5", size = 11810974, upload-time = "2026-02-17T22:20:08.946Z" },
     { url = "https://files.pythonhosted.org/packages/89/41/d7dfb63d2407f12055215070c42fc6ac41b66e90a2946cdc5e759058398b/pandas-3.0.1-cp314-cp314t-win_amd64.whl", hash = "sha256:44f1364411d5670efa692b146c748f4ed013df91ee91e9bec5677fb1fd58b937", size = 10884622, upload-time = "2026-02-17T22:20:11.711Z" },
     { url = "https://files.pythonhosted.org/packages/68/b0/34937815889fa982613775e4b97fddd13250f11012d769949c5465af2150/pandas-3.0.1-cp314-cp314t-win_arm64.whl", hash = "sha256:108dd1790337a494aa80e38def654ca3f0968cf4f362c85f44c15e471667102d", size = 9452085, upload-time = "2026-02-17T22:20:14.331Z" },
+]
+
+[[package]]
+name = "pathspec"
+version = "1.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/82/42f767fc1c1143d6fd36efb827202a2d997a375e160a71eb2888a925aac1/pathspec-1.1.1.tar.gz", hash = "sha256:17db5ecd524104a120e173814c90367a96a98d07c45b2e10c2f3919fff91bf5a", size = 135180, upload-time = "2026-04-27T01:46:08.907Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl", hash = "sha256:a00ce642f577bf7f473932318056212bc4f8bfdf53128c78bbd5af0b9b20b189", size = 57328, upload-time = "2026-04-27T01:46:07.06Z" },
 ]
 
 [[package]]
