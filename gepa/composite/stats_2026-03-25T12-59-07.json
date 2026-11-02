@@ -1,0 +1,320 @@
+{
+  "start_time": "2026-03-25T12:59:07.313262",
+  "end_time": "2026-03-25T16:30:02.109772",
+  "total_duration_s": 12094.09,
+  "total_iterations": 30,
+  "total_agent_calls": 1708,
+  "baseline_train_score": 0.6302469135802469,
+  "baseline_val_score": 0.5833333333333333,
+  "optimized_val_score": 0.7450980392156863,
+  "val_delta": 0.1618,
+  "best_iteration": 20,
+  "best_train_score": 0.842283950617284,
+  "train_size": 54,
+  "val_size": 17,
+  "max_metric_calls": 30,
+  "agent_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-haiku-4-5-20251001",
+  "iterations": [
+    {
+      "iteration": 1,
+      "composite_score": 0.5808641975308642,
+      "tc_mean": 0.491,
+      "cac_mean": 0.62,
+      "sr_mean": 0.829,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 408.56
+    },
+    {
+      "iteration": 2,
+      "composite_score": 0.5996913580246913,
+      "tc_mean": 0.528,
+      "cac_mean": 0.639,
+      "sr_mean": 0.671,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 235.82
+    },
+    {
+      "iteration": 3,
+      "composite_score": 0.8043209876543209,
+      "tc_mean": 0.63,
+      "cac_mean": 0.944,
+      "sr_mean": 0.914,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 160.81
+    },
+    {
+      "iteration": 4,
+      "composite_score": 0.8089506172839506,
+      "tc_mean": 0.639,
+      "cac_mean": 0.935,
+      "sr_mean": 0.914,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 1072.21
+    },
+    {
+      "iteration": 5,
+      "composite_score": 0.8246913580246913,
+      "tc_mean": 0.667,
+      "cac_mean": 0.963,
+      "sr_mean": 0.9,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 444.56
+    },
+    {
+      "iteration": 6,
+      "composite_score": 0.792283950617284,
+      "tc_mean": 0.657,
+      "cac_mean": 0.907,
+      "sr_mean": 0.9,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 245.45
+    },
+    {
+      "iteration": 7,
+      "composite_score": 0.8175925925925925,
+      "tc_mean": 0.657,
+      "cac_mean": 0.944,
+      "sr_mean": 0.943,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 184.39
+    },
+    {
+      "iteration": 8,
+      "composite_score": 0.7771604938271606,
+      "tc_mean": 0.63,
+      "cac_mean": 0.907,
+      "sr_mean": 0.814,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 466.45
+    },
+    {
+      "iteration": 9,
+      "composite_score": 0.7987654320987654,
+      "tc_mean": 0.62,
+      "cac_mean": 0.944,
+      "sr_mean": 0.886,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 241.73
+    },
+    {
+      "iteration": 10,
+      "composite_score": 0.8104938271604938,
+      "tc_mean": 0.676,
+      "cac_mean": 0.907,
+      "sr_mean": 0.914,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 395.66
+    },
+    {
+      "iteration": 11,
+      "composite_score": 0.8049382716049384,
+      "tc_mean": 0.648,
+      "cac_mean": 0.917,
+      "sr_mean": 0.886,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 154.65
+    },
+    {
+      "iteration": 12,
+      "composite_score": 0.7993827160493827,
+      "tc_mean": 0.657,
+      "cac_mean": 0.917,
+      "sr_mean": 0.857,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 1371.72
+    },
+    {
+      "iteration": 13,
+      "composite_score": 0.8188271604938272,
+      "tc_mean": 0.676,
+      "cac_mean": 0.926,
+      "sr_mean": 0.957,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 183.14
+    },
+    {
+      "iteration": 14,
+      "composite_score": 0.7901234567901234,
+      "tc_mean": 0.648,
+      "cac_mean": 0.88,
+      "sr_mean": 0.929,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 287.37
+    },
+    {
+      "iteration": 15,
+      "composite_score": 0.7987654320987654,
+      "tc_mean": 0.62,
+      "cac_mean": 0.935,
+      "sr_mean": 0.886,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 328.85
+    },
+    {
+      "iteration": 16,
+      "composite_score": 0.7728395061728395,
+      "tc_mean": 0.63,
+      "cac_mean": 0.861,
+      "sr_mean": 0.871,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 296.66
+    },
+    {
+      "iteration": 17,
+      "composite_score": 0.799074074074074,
+      "tc_mean": 0.62,
+      "cac_mean": 0.935,
+      "sr_mean": 0.871,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 153.9
+    },
+    {
+      "iteration": 18,
+      "composite_score": 0.7895061728395062,
+      "tc_mean": 0.62,
+      "cac_mean": 0.926,
+      "sr_mean": 0.886,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 1091.71
+    },
+    {
+      "iteration": 19,
+      "composite_score": 0.8185185185185185,
+      "tc_mean": 0.667,
+      "cac_mean": 0.954,
+      "sr_mean": 0.9,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 165.32
+    },
+    {
+      "iteration": 20,
+      "composite_score": 0.842283950617284,
+      "tc_mean": 0.694,
+      "cac_mean": 0.972,
+      "sr_mean": 0.943,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 369.71
+    },
+    {
+      "iteration": 21,
+      "composite_score": 0.8145061728395062,
+      "tc_mean": 0.648,
+      "cac_mean": 0.944,
+      "sr_mean": 0.943,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 380.29
+    },
+    {
+      "iteration": 22,
+      "composite_score": 0.825,
+      "tc_mean": 0.648,
+      "cac_mean": 0.972,
+      "sr_mean": 0.886,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 204.09
+    },
+    {
+      "iteration": 23,
+      "composite_score": 0.8046296296296297,
+      "tc_mean": 0.611,
+      "cac_mean": 0.963,
+      "sr_mean": 0.9,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 276.21
+    },
+    {
+      "iteration": 24,
+      "composite_score": 0.8398148148148148,
+      "tc_mean": 0.676,
+      "cac_mean": 0.981,
+      "sr_mean": 0.914,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 205.49
+    },
+    {
+      "iteration": 25,
+      "composite_score": 0.8299382716049384,
+      "tc_mean": 0.657,
+      "cac_mean": 0.972,
+      "sr_mean": 0.943,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 193.94
+    },
+    {
+      "iteration": 26,
+      "composite_score": 0.8324074074074075,
+      "tc_mean": 0.657,
+      "cac_mean": 0.981,
+      "sr_mean": 0.9,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 753.72
+    },
+    {
+      "iteration": 27,
+      "composite_score": 0.8296296296296296,
+      "tc_mean": 0.667,
+      "cac_mean": 0.972,
+      "sr_mean": 0.886,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 372.32
+    },
+    {
+      "iteration": 28,
+      "composite_score": 0.8333333333333334,
+      "tc_mean": 0.676,
+      "cac_mean": 0.963,
+      "sr_mean": 0.929,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 336.17
+    },
+    {
+      "iteration": 29,
+      "composite_score": 0.841358024691358,
+      "tc_mean": 0.694,
+      "cac_mean": 0.963,
+      "sr_mean": 0.914,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 414.56
+    },
+    {
+      "iteration": 30,
+      "composite_score": 0.8046296296296297,
+      "tc_mean": 0.62,
+      "cac_mean": 0.954,
+      "sr_mean": 0.9,
+      "n_examples": 54,
+      "agent_calls": 54,
+      "duration_s": 169.39
+    }
+  ]
+}

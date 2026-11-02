@@ -54,16 +54,23 @@ def semantic_search(
     """
     store = _get_store()
 
-    where: dict = {}
+    conditions = []
     if category:
-        where["category"] = category
+        conditions.append({"category": {"$eq": category}})
     if max_price is not None:
-        where["price"] = {"$lte": max_price}
+        conditions.append({"price": {"$lte": max_price}})
+
+    if len(conditions) == 0:
+        chroma_filter = None
+    elif len(conditions) == 1:
+        chroma_filter = conditions[0]
+    else:
+        chroma_filter = {"$and": conditions}
 
     results = store.similarity_search_with_score(
         query,
         k=limit,
-        filter=where if where else None,
+        filter=chroma_filter,
     )
 
     hits = []

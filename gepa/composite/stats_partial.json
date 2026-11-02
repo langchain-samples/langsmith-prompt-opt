@@ -1,0 +1,22 @@
+{
+  "note": "Partial run — saved from terminal output. Run was killed before completion.",
+  "baseline_train_score": 0.631,
+  "baseline_val_score": 0.587,
+  "best_train_score": 0.831,
+  "best_iteration": 4,
+  "best_prompt_file": "prompt_partial_best_iter4_0.831.txt",
+  "gepa_internal_val_score_for_best": 0.8308641975308642,
+  "iterations": [
+    {"iteration": 1, "composite_score": 0.637, "tc": 0.537, "cac": 0.713, "sr": 0.729, "duration_s": 212.8},
+    {"iteration": 2, "composite_score": 0.585, "tc": 0.500, "cac": 0.630, "sr": 0.757, "duration_s": 202.0},
+    {"iteration": 3, "composite_score": 0.813, "tc": 0.648, "cac": 0.954, "sr": 0.886, "duration_s": 374.2},
+    {"iteration": 4, "composite_score": 0.831, "tc": 0.657, "cac": 0.981, "sr": 0.900, "duration_s": 148.4},
+    {"iteration": 5, "composite_score": 0.814, "tc": 0.657, "cac": 0.935, "sr": 0.886, "duration_s": 134.1},
+    {"iteration": 6, "composite_score": 0.819, "tc": 0.667, "cac": 0.944, "sr": 0.929, "duration_s": 253.9},
+    {"iteration": 7, "composite_score": 0.793, "tc": 0.611, "cac": 0.944, "sr": 0.857, "duration_s": 163.4},
+    {"iteration": 8, "composite_score": 0.800, "tc": 0.639, "cac": 0.917, "sr": 0.914, "duration_s": 155.5},
+    {"iteration": 9, "composite_score": 0.812, "tc": 0.620, "cac": 0.972, "sr": 0.914, "duration_s": 152.1},
+    {"iteration": 10, "composite_score": 0.809, "tc": 0.630, "cac": 0.963, "sr": 0.900, "duration_s": 265.5},
+    {"iteration": 19, "composite_score": 0.810, "tc": 0.639, "cac": 0.944, "sr": 0.943, "duration_s": 169.4}
+  ]
+}
